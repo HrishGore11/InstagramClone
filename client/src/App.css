@@ -1,7 +1,119 @@
 .App {
   text-align: center;
 }
+a {
+  color: black !important;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Josefin+Sans:ital,wght@1,300&family=Praise&family=Titillium+Web:ital@1&display=swap");
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+  color: rgb(38, 38, 38);
+  fill: rgb(38, 38, 38);
+  height: 29;
+  width: 103;
+  line-height: 64px;
+  font-size: 15px;
+  font-weight: normal;
+} */
+.login-Card {
+  margin-top: 40px;
+}
+.btn-login {
+  width: 170px;
+  border-radius: 6px;
+}
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
+.input-field input[type="email"]:focus + label {
+  color: #1e88e5 !important;
+}
+.input-field input[type="email"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
+.input-field input[type="password"]:focus + label {
+  color: #1e88e5 !important;
+}
 
+.input-field input[type="password"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
+.input-field input[type="text"]:focus + label {
+  color: #1e88e5 !important;
+}
+
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field1 {
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  height: 800px auto;
+}
+#insta {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 50px; /* change this to change the size*/
+  margin-left: 15px;
+}
+.instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +147,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Posts {
+  width: 30%;
+  margin: 10px 0px;
+}
+.PostsSavedTagged {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
