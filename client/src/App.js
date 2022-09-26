@@ -5,6 +5,7 @@ import Home from "./Components/Screens/Home/Home";
 import Login from "./Components/Screens/Login/Login";
 import Signup from "./Components/Screens/Signup/Signup";
 import Profile from "./Components/Screens/Profile/Profile";
+import CreatePost from "./Components/Screens/CreatePost/CreatePost";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Login" element={<Login />}></Route>
         <Route path="/Signup" element={<Signup />}></Route>
         <Route path="/Profile" element={<Profile />}></Route>
+        <Route path="/CreatePost" element={<CreatePost />}></Route>
       </Routes>
     </BrowserRouter>
   );

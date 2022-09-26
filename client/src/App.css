@@ -157,3 +157,11 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+/* ////////////////////homepage */
+
+.homepage-card {
+  max-width: 450px;
+  height: max-content;
+  margin: 30px auto;
+  border-radius: 10px;
+}
